@@ -1,0 +1,15 @@
+{
+    // .pre-commit-configに寄せた設定
+    // 行末スペース削除
+    "files.trimTrailingWhitespace": true,
+    "[markdown]": {
+        // markdownは 行末の半角スペース2つで改行なので、消さないようにする
+        "files.trimTrailingWhitespace": false,
+    },
+    // ファイル最終行を改行コードにする
+    "files.insertFinalNewline": true,
+    // 改行コードを LF に統一
+    "files.eol": "\n",
+    // ファイル保存時の自動整形を有効にする
+    "editor.formatOnSave": true,
+}
