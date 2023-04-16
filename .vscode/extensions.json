@@ -1,0 +1,22 @@
+{
+    "recommendations": [
+        // Git関連
+        "donjayamanne.githistory",
+        "GitHub.vscode-pull-request-github",
+        "eamodio.gitlens",
+        "adam-bender.commit-message-editor",
+        // その他の便利ツール
+        "shardulm94.trailing-spaces",
+        "mosapride.zenkaku",
+        "2gua.rainbow-brackets",
+        "alefragnani.Bookmarks",
+        "PKief.material-icon-theme",
+        "yzhang.markdown-all-in-one",
+        "usernamehw.errorlens",
+        "streetsidesoftware.code-spell-checker",
+        // Python
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-python.isort",
+    ]
+}
