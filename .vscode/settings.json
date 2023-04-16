@@ -12,4 +12,73 @@
     "files.eol": "\n",
     // ファイル保存時の自動整形を有効にする
     "editor.formatOnSave": true,
+    "commit-message-editor.staticTemplate": [
+        "Type: Short description",
+        "",
+        "Message body"
+    ],
+    "commit-message-editor.dynamicTemplate": [
+        "{type}: {description}",
+        "",
+        "{body}",
+    ],
+    "commit-message-editor.tokens": [
+        {
+            "label": "Type",
+            "name": "type",
+            "type": "enum",
+            "options": [
+                {
+                    "label": "---",
+                    "value": ""
+                },
+                {
+                    "label": "feat",
+                    "description": "新機能"
+                },
+                {
+                    "label": "fix",
+                    "description": "バグフィックス"
+                },
+                {
+                    "label": "docs",
+                    "description": "ドキュメントの変更のみ"
+                },
+                {
+                    "label": "style",
+                    "description": "コードの意味に影響を与えない変更（空白、書式、セミコロンの欠落など）"
+                },
+                {
+                    "label": "refactor",
+                    "description": "バグを修正するわけでもなく、機能を追加するわけでもないコード変更"
+                },
+                {
+                    "label": "perf",
+                    "description": "パフォーマンスを向上させるコード変更"
+                },
+                {
+                    "label": "test",
+                    "description": "欠落しているテストの追加や既存のテストの修正"
+                },
+                {
+                    "label": "chore",
+                    "description": "ビルドプロセスやドキュメント生成などの補助ツールやライブラリの変更"
+                },
+            ],
+            "description": "タイプを選んでください"
+        },
+        {
+            "label": "Short description",
+            "name": "description",
+            "type": "text",
+            "description": "件名に簡単な説明を記載する"
+        },
+        {
+            "label": "body",
+            "name": "body",
+            "type": "text",
+            "description": "修正内容の詳細を記載する",
+            "multiline": true
+        }
+    ],
 }
